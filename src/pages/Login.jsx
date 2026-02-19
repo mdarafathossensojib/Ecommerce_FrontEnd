@@ -65,7 +65,7 @@ const Login = () => {
                 type="password"
                 placeholder="••••••••"
                 className={`input input-bordered w-full ${
-                  errors.email ? "input-error" : ""
+                  errors.password ? "input-error" : ""
                 }`}
                 {...register("password", { required: "Password is required" })}
               />
