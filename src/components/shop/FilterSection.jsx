@@ -50,7 +50,7 @@ const FilterSection = ({
               onClick={() => handleCategoryChange(cat.id)}
               className={`w-full text-left px-3 py-2 rounded-lg ${
                 selectedCategory === cat.id
-                  ? "bg-secondary text-white"
+                  ? "bg-primary text-white"
                   : "hover:bg-gray-100"
               }`}
             >
@@ -70,7 +70,7 @@ const FilterSection = ({
           max="1000"
           value={priceRange[1]}
           onChange={(e) => handlePriceChange(1, Number(e.target.value))}
-          className="w-full"
+          className="w-full text-primary accent-primary mb-2"
         />
 
         <div className="flex justify-between text-sm mt-2">

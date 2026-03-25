@@ -13,7 +13,7 @@ const CarouselSlide = ({ title, subtitle, image }) => {
             {title}
           </h1>
           <p className="text-gray-600 my-4">{subtitle}</p>
-          <button className="btn btn-secondary px-6 py-3 rounded-full shadow-md">
+          <button className="btn btn-primary px-6 py-3 rounded-full shadow-md">
             Shop Product
           </button>
         </div>
