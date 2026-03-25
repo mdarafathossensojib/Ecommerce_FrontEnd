@@ -20,7 +20,7 @@ const DiscountSection = () => {
           </h1>
           {/* CountDown Timer  */}
           <DiscountTimer />
-          <button className="btn btn-secondary px-6 py-3 rounded-full shadow-md">
+          <button className="btn btn-primary px-6 py-3 rounded-full shadow-md">
             Shop Collection
           </button>
         </div>

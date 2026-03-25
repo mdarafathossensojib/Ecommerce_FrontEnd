@@ -29,22 +29,22 @@ const DiscountTimer = () => {
   return (
     <div className="flex justify-center md:justify-start space-x-8 text-2xl font-semibold my-6">
       <div>
-        <span className="text-3xl text-pink-500">{timeLeft.days}</span>
+        <span className="text-3xl text-blue-500">{timeLeft.days}</span>
         <br />
         Days
       </div>
       <div>
-        <span className="text-3xl text-pink-500">{timeLeft.hours}</span>
+        <span className="text-3xl text-blue-500">{timeLeft.hours}</span>
         <br />
         Hrs
       </div>
       <div>
-        <span className="text-3xl text-pink-500">{timeLeft.minutes}</span>
+        <span className="text-3xl text-blue-500">{timeLeft.minutes}</span>
         <br />
         Min
       </div>
       <div>
-        <span className="text-3xl text-pink-500">{timeLeft.seconds}</span>
+        <span className="text-3xl text-blue-500">{timeLeft.seconds}</span>
         <br />
         Sec
       </div>

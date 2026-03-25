@@ -38,7 +38,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link to="/shop">
-              <button className="bg-secondary text-white font-semibold py-3 px-6 rounded-lg transition-colors cursor-pointer">
+              <button className="bg-primary text-white font-semibold py-3 px-6 rounded-lg transition-colors cursor-pointer">
                 Shop Now
               </button>
             </Link>
@@ -59,7 +59,7 @@ const Hero = () => {
                 key={idx}
                 className="p-6 rounded-lg border border-gray-200 hover:border-gray-300 bg-white hover:shadow-lg transition-all"
               >
-                <Icon className="w-8 h-8 text-secondary mb-4" />
+                <Icon className="w-8 h-8 text-primary mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {feature.title}
                 </h3>

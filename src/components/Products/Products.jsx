@@ -23,7 +23,7 @@ const Products = () => {
                 <h2 className="text-3xl md:text-4xl font-bold">Trending Products</h2>
                 <a
                 href="#"
-                className="btn btn-secondary px-6 py-5 rounded-full text-lg"
+                className="btn btn-primary px-6 py-5 rounded-full text-lg"
                 >
                 View All
                 </a>
@@ -32,7 +32,7 @@ const Products = () => {
             {/* Spinnerer Loading */}
             {isLoading && (
               <div className="flex justify-center items-center py-lg">
-                <span className="loading loading-spinner loading-xl text-secondary"></span>
+                <span className="loading loading-spinner loading-xl text-primary"></span>
               </div>
             )}
 

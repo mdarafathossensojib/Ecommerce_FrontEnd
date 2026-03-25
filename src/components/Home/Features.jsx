@@ -6,24 +6,24 @@ import { BsShieldLock } from "react-icons/bs";
 const Features = () => {
   const features = [
     {
-      icon: <FaShoppingCart className="text-red-400 text-4xl" />,
+      icon: <FaShoppingCart className="text-blue-500 text-4xl" />,
       title: "Free Delivery",
       description:
         "Get your orders delivered at no extra cost, fast and hassle-free.",
     },
     {
-      icon: <MdVerified className="text-red-400 text-4xl" />,
+      icon: <MdVerified className="text-blue-500 text-4xl" />,
       title: "Quality Guarantee",
       description:
         "We ensure top-notch quality for every product you purchase.",
     },
     {
-      icon: <FaTags className="text-red-400 text-4xl" />,
+      icon: <FaTags className="text-blue-500 text-4xl" />,
       title: "Daily Offers",
       description: "Exclusive discounts and special deals available every day.",
     },
     {
-      icon: <BsShieldLock className="text-red-400 text-4xl" />,
+      icon: <BsShieldLock className="text-blue-500 text-4xl" />,
       title: "100% Secure Payment",
       description:
         "Your payment information is encrypted and completely secure.",

@@ -61,7 +61,7 @@ const ProductItem = ({ product }) => {
         </div>
 
         <button
-          className="w-full bg-secondary cursor-pointer text-white py-2 rounded-lg flex items-center justify-center gap-2 hover:bg-secondary/90 transition"
+          className="w-full bg-primary cursor-pointer text-white py-2 rounded-lg flex items-center justify-center gap-2 hover:bg-primary/90 transition"
         >
           <ShoppingCart className="w-4 h-4" />
           Add to Cart

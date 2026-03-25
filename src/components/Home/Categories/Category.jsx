@@ -15,7 +15,7 @@ const Category = () => {
         <h2 className="text-3xl font-bold">Browse Categories</h2>
         <a
           href="#"
-          className="btn btn-secondary px-6 py-5 rounded-full text-lg"
+          className="btn btn-primary px-6 py-5 rounded-full text-lg"
         >
           View All
         </a>

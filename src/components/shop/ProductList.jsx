@@ -4,7 +4,7 @@ const ProductList = ({ products, loading }) => {
   if (loading)
     return (
       <div className="flex justify-center py-20">
-        <span className="loading loading-spinner text-secondary loading-lg"></span>
+        <span className="loading loading-spinner text-primary loading-lg"></span>
       </div>
     );
 
