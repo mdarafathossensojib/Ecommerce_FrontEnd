@@ -34,7 +34,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 font-bold text-xl">
-            <FiShoppingCart className="w-6 h-6" />
+            <FiShoppingCart className="w-6 h-6 text-secondary" />
             <span className="hidden sm:inline">PhiMart</span>
           </Link>
 
